@@ -46,6 +46,9 @@ header .header-anchor span {
   color: #C778DD;
   margin: 0 2px;
 }
+header .header-anchor .try {
+  color: #C778DD;
+}
 
 aside {
   position: fixed;
