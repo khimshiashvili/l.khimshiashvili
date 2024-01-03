@@ -46,9 +46,6 @@ header .header-anchor span {
   color: #C778DD;
   margin: 0 2px;
 }
-header .header-anchor .try {
-  color: #C778DD;
-}
 
 aside {
   position: fixed;
@@ -175,7 +172,7 @@ aside i {
 
 .projects_section {
   margin-top: 180px;
-  height: 64vh;
+  height: 570px;
   padding: 0 80px;
 }
 .projects_section .container .project-header .line-sort {
@@ -256,7 +253,7 @@ aside i {
 
 .skills {
   padding: 0 80px;
-  height: 60vh;
+  height: 450px;
 }
 .skills .container .skills_header .line-sort {
   display: flex;
@@ -317,7 +314,9 @@ aside i {
 
 .about_me {
   padding: 0 80px;
-  height: 53vh;
+  height: 455px;
+  display: flex;
+  align-items: center;
 }
 .about_me .container .skills_header .line-sort {
   display: flex;
@@ -492,9 +491,6 @@ footer .container .Copyright p {
     gap: 40px;
     justify-content: center;
   }
-  .about_me {
-    margin-top: 65px;
-  }
   .about_me .container .skills_header .line-sort {
     justify-content: center;
   }
@@ -531,14 +527,9 @@ footer .container .Copyright p {
     font-size: 0.9em;
   }
 }
-@media screen and (max-width: 683px) {
+@media screen and (max-width: 700px) {
   .about_me {
     margin-top: 275px;
     padding: 0 25px;
-  }
-}
-@media screen and (max-width: 445px) {
-  footer {
-    margin-top: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
