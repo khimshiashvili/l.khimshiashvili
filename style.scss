@@ -132,6 +132,7 @@ aside{
                 width: 335px;
                 display: flex;
                 justify-content: center;
+                flex-wrap: nowrap;
                 align-items: center;
                 gap: 15px;
                 background: #282c33;
@@ -317,8 +318,8 @@ aside{
 }
 // about_me
 .about_me{
-    padding: 0 80px;
-    height: 455px;
+    padding: 20px 80px 0 80px;
+    height: 460px;
     display: flex;
     align-items: center;
     .container{
@@ -494,7 +495,6 @@ footer{
     }
     // skills section
     .skills{
-        margin-top: 300px;
         .container .skills_header .line-sort{
             justify-content: center;
         }
@@ -564,10 +564,15 @@ footer{
         }
     }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 684px){
     .about_me{
         margin-top: 275px;
         padding: 0 25px;
     }
 
+}
+@media screen and (max-width: 834px){
+    .skills{
+        margin-top: 300px;
+    }
 }

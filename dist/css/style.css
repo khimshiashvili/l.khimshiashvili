@@ -134,6 +134,7 @@ aside i {
   width: 335px;
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 15px;
   background: #282c33;
@@ -313,8 +314,8 @@ aside i {
 }
 
 .about_me {
-  padding: 0 80px;
-  height: 455px;
+  padding: 20px 80px 0 80px;
+  height: 460px;
   display: flex;
   align-items: center;
 }
@@ -475,9 +476,6 @@ footer .container .Copyright p {
   .projects_section .container .project-list {
     margin-top: 0px;
   }
-  .skills {
-    margin-top: 300px;
-  }
   .skills .container .skills_header .line-sort {
     justify-content: center;
   }
@@ -527,9 +525,14 @@ footer .container .Copyright p {
     font-size: 0.9em;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 684px) {
   .about_me {
     margin-top: 275px;
     padding: 0 25px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .skills {
+    margin-top: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
