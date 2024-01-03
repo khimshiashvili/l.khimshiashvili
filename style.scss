@@ -167,7 +167,7 @@ aside{
 // projects_section
 .projects_section{
     margin-top: 180px;
-    height: 570px;
+    height: 545px;
     padding: 0 80px;
     .container{
         .project-header{
@@ -318,8 +318,8 @@ aside{
 }
 // about_me
 .about_me{
-    padding: 20px 80px 0 80px;
-    height: 460px;
+    padding: 30px 80px 0 80px;
+    height: 480px;
     display: flex;
     align-items: center;
     .container{
@@ -446,7 +446,7 @@ footer{
     }
 
 }
-@media screen and (max-width: 1045px){
+@media screen and (max-width: 1080px){
     .info_me{
         flex-direction: column;
         margin-top: 60px;
@@ -564,15 +564,17 @@ footer{
         }
     }
 }
-@media screen and (max-width: 684px){
-    .about_me{
-        margin-top: 275px;
-        padding: 0 25px;
+@media screen and (max-width: 683px){
+    body .about_me{
+        margin-top: 285px;
+        padding: 20px 30px;
     }
-
 }
 @media screen and (max-width: 834px){
     .skills{
         margin-top: 300px;
+    }
+    .about_me{
+        padding: 50px 80px 0 80px;
     }
 }

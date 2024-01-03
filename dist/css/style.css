@@ -173,7 +173,7 @@ aside i {
 
 .projects_section {
   margin-top: 180px;
-  height: 570px;
+  height: 545px;
   padding: 0 80px;
 }
 .projects_section .container .project-header .line-sort {
@@ -314,8 +314,8 @@ aside i {
 }
 
 .about_me {
-  padding: 20px 80px 0 80px;
-  height: 460px;
+  padding: 30px 80px 0 80px;
+  height: 480px;
   display: flex;
   align-items: center;
 }
@@ -431,7 +431,7 @@ footer .container .Copyright p {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1080px) {
   .info_me {
     flex-direction: column;
     margin-top: 60px;
@@ -525,14 +525,17 @@ footer .container .Copyright p {
     font-size: 0.9em;
   }
 }
-@media screen and (max-width: 684px) {
-  .about_me {
-    margin-top: 275px;
-    padding: 0 25px;
+@media screen and (max-width: 683px) {
+  body .about_me {
+    margin-top: 285px;
+    padding: 20px 30px;
   }
 }
 @media screen and (max-width: 834px) {
   .skills {
     margin-top: 300px;
+  }
+  .about_me {
+    padding: 50px 80px 0 80px;
   }
 }/*# sourceMappingURL=style.css.map */
